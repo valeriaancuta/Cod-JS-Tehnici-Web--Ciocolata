@@ -176,13 +176,13 @@ document.body.addEventListener("keypress", function(event3){
 });
 
 var loc=document.getElementsByClassName("product")[2];
-var btn1=document.createElement("button");
-btn1.innerHTML="Afiseaza lista!";
-loc.appendChild(btn1);
-btn1.style.border="2px solid red";
-btn1.style.backgroundColor="#00BFFF";
+var btn=document.createElement("button");
+btn.innerHTML="Afiseaza lista!";
+loc.appendChild(btn);
+btn.style.border="2px solid red";
+btn.style.backgroundColor="#00BFFF";
 
-btn1.addEventListener("click", function(){
+btn.addEventListener("click", function(){
 	
 	document.getElementById("vector").appendChild(Lista);
 });
